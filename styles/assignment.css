@@ -1,0 +1,176 @@
+
+
+.azeret-mono-normal> {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+#handshake {
+    height: 314px;
+    width: 1140px;
+    background-image: url("../assets/handshake.jpg");
+}
+
+body {
+    font-family: "Azeret Mono", monospace;    
+}
+
+.banner-section-container {
+    width: 946px;
+    height: 336px;
+    border: 16px solid ;
+}
+
+
+/* shared style */
+
+.secondary-bg{
+    background-color:rgba(13, 19, 33, 0.02);
+}
+.text-primary{
+    color: rgb(13, 19, 33);
+}
+
+.btn-primary{
+    background-color: azure;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(13, 19, 33);
+    padding: 17px 24px 17px 24px;
+    border-radius: 8px;
+}
+
+.section-title{
+    font-size: 32px;
+    font-weight: 800;
+    color:rgb(13, 19, 33) 
+}
+
+.section-description{
+    font-size: 16px;
+    font-weight: 400;
+    color:rgb(13, 19, 33)
+}
+
+/* header */
+.header{
+    background-image: url('/assets/Hero-bg.png') ;
+}
+
+
+ /* Nav styles  */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 38px 166px;
+    
+
+    
+}
+ 
+.nav-title{
+    font-size: 28px;
+    font-weight: 800;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 825px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* banner styles */
+.bannner-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 599.86,0 221px;
+}
+.banner-content-1{
+    width: 998px;
+}
+
+.banner-grittings-1{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.banner-profile-pic-1{
+    width: 240.28px;
+}
+
+.banner-1-style{
+    padding: 80px 97px;
+    text-align: center;
+    margin-top: 80px  
+}
+
+.banner-2-Layout{
+    /* Frame 8 */
+position: static;
+width: 946px;
+height: 336px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 48px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+}
+
+.banner-2-style{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+    
+
+
+/* div styles */
+.div-1-style{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.div-1-title{
+
+}
+
+.div-2-style{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+}
+
+
+.div-3-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 48px;
+    margin: 32px 0px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%); 
+
+}
+.handshake-content{
+    background-image: ;
+}
